@@ -1,4 +1,7 @@
+#[allow(unused_imports)]
+use std::io::{self, Write};
 
 fn main() {
-    println!("Hello, world!");
+    println!("$ ");
+    io::stdout().flush().unwrap();
 }
